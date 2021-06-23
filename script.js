@@ -82,7 +82,7 @@ function myTimer() {
     .then(res => res.json())
     .then(data => {
       const us2 = data.rates[us1];
-      const uk2 = data.rates[us1];
+      const uk2 = data.rates[uk1];
       const jp2 = data.rates[jp1];
       const in2 = data.rates[in1];
       const cn2 = data.rates[cn1];
