@@ -68,7 +68,7 @@ function myTimerfirst() {
 }
 myTimerfirst();
 
-setInterval(myTimer, 5000);
+setInterval(myTimer, 60000);
 
 function myTimer() {
  
