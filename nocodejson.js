@@ -3,7 +3,7 @@
   "country": USA,
   "rate": 1.00},
 {
-  "country": AED,
+  "country": GBP,
   "rate": 5.00},
 {
   "country": ARS,
