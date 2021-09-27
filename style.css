@@ -4,8 +4,8 @@
 }
 
 :root{
-    --primary-color:#22254b;
-    --secondary-color: #373b69;
+    --primary-color:#0a0b0c;
+    --secondary-color: #4f4f52;
 }
 
 body{
@@ -46,19 +46,24 @@ main{
 }
 
 .movie {
-    width: 150px;
+    width: 170px;
     margin: 1rem;
-    border-radius: 3px;
+    margin-bottom: 0%;
+    border-radius: 5px;
     box-shadow: 0.2px 4px 5px rgba(0,0,0,0.1);
     background-color: var(--secondary-color);
     position:relative;
     overflow: hidden;
-    height: 250px;
+    border-style: solid;
+    border-color: #4f4f52;
+    border-width: 3px;
+    /* height: 330px; */
 }
 
 
 .movie img{
     width:100%;
+   
 }
 
 .movie-info{
@@ -66,8 +71,10 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 1rem 1rem;
+    padding: 0.3rem 1rem 1rem;
     letter-spacing: 0.5px;
+    width: 200px;
+
 }
 
 .movie-info h3{
@@ -98,11 +105,11 @@ main{
     left:0;
     right:0;
     bottom:0;
-    background-color: rgb(88, 82, 177);
+    background-color: rgb(115, 113, 136);
     padding: 1rem;
     max-height: 100%;
     transform:translateY(101%);
-    transition:transform 0.3s ease-in;
+    transition:transform 0.2s ease-in;
     color: azure ;
 }
 
