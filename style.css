@@ -46,7 +46,7 @@ main{
 }
 
 .movie {
-    width: 170px;
+    width: 180px;
     margin: 0.5rem;
     margin-top: 1rem;
     margin-bottom: 0%;
@@ -75,7 +75,7 @@ main{
     padding: 0.3rem 1rem 1rem;
     letter-spacing: 0.3px;
     line-height: 20px;
-    width: 170px;
+    width: 180px;
     font-size:  14px;
 }
 
