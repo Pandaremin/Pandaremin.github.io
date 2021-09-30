@@ -1,4 +1,4 @@
-return{
+return(
 {
 "employees":[
   {"firstName":"John", "lastName":"Doe"},
@@ -6,4 +6,4 @@ return{
   {"firstName":"Peter", "lastName":"Jones"}
 ]
 }
-}
+)
