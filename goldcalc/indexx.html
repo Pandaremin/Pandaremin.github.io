@@ -102,6 +102,8 @@ href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
   <script>
     function calculate()
     {
+document.getElementById("tickle").onfocus = function() {
+    document.getElementById("tickle").value="";
       var gt, gp,gy,at,ap,ay,r,s,t1,riny,total;
       gt = parseInt(document.getElementById("tickle").value);
       gp = parseInt(document.getElementById("pel").value);
